@@ -1,5 +1,7 @@
 # kademo-publisher
 
+Run this along with my kademo-consumer project
+
 notes:
 - first run this and wait for about 30 seconds
 `docker-compose up -d`
