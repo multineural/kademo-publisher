@@ -3,12 +3,12 @@ server:
 spring:
   kafka:
     consumer:
-      bootstrap-servers: localhost:9091
-      group-id: kademo-cons-group
+      bootstrap-servers: localhost:29092
+      group-id: group_id
       auto-offset-reset: earliest
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
     producer:
-      bootstrap-servers: localhost:9091
+      bootstrap-servers: localhost:29092
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
