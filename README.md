@@ -14,6 +14,7 @@ notes:
 
 - `cd /usr/bin`
 
-- `kafka-console-producer --bootstrap-server broker:9092 --topic DIA_TEST`
+- This is a quick, optional test to make sure kafka is working. The alternative is to skip this step and run the spring-boot application and watch the messages come in with the command in the next step... `kafka-console-producer --bootstrap-server broker:9092 --topic DIA_TEST` Then enter a few typed messages and end the session with ctrl-c
 
-- `kafka-console-consumer --bootstrap-server broker:9092 --topic DIA_TEST --from-beginning`
+- Then use this to watch messages come in to the topic! `kafka-console-consumer --bootstrap-server broker:9092 --topic DIA_TEST --from-beginning`
+
