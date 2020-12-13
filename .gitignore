@@ -34,3 +34,7 @@ build/
 
 # kafka and related docker-compose services
 *kafka*/**
+
+# mac
+.DS_Store
+
